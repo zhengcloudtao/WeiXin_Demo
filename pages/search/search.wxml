@@ -1,0 +1,8 @@
+ <input bindinput="onInput" confirmType="search" placeholder="请输入要查询的地点关键字哦！"></input>
+
+ <view wx:for="{{list}}" wx:key="list">
+
+ 	<view>name"{{item.name}}"</view>
+ 	<view>type"{{item.type}}"</view>
+
+ </view>
